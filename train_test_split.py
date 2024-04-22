@@ -4,9 +4,9 @@ import shutil
 import sys
 
 # Define paths to image folders
-image_path = '/content/Tensorflow/workspace/images/all'
-train_path = '/content/Tensorflow/workspace/images/train'
-test_path = '/content/Tensorflow/workspace/images/test'
+image_path = '/content/images/all'
+train_path = '/content/images/train'
+test_path = '/content/images/test'
 
 # Create train and test directories if they don't exist
 Path(train_path).mkdir(parents=True, exist_ok=True)
